@@ -24,8 +24,8 @@ export default function MarketPlace() {
       </Head>
       <Header />
       <main className="grid grid-cols-4 gap-4">
-        {assets.map((v) => (
-          <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
+        {assets.map((v, i) => (
+          <div key={i} className="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
             <a href="#">
               <img
                 className="rounded-t-lg"
@@ -33,7 +33,7 @@ export default function MarketPlace() {
                 alt=""
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {v.attribute?.name}
@@ -42,7 +42,7 @@ export default function MarketPlace() {
             
               <a
                 href="#"
-                class="inline-flex items-center rounded-lg bg-blue-700 py-2 px-3 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="inline-flex items-center rounded-lg bg-blue-700 py-2 px-3 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Buy
                

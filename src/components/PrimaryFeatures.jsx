@@ -77,7 +77,7 @@ export function PrimaryFeatures() {
             Everything we can offer you
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Welcome to the world of web3, where "All Animals are equal" no one to boss you
+            Welcome to the world of web3, where &quot;All Animals are equal&quot; no one to boss you
           </p>
         </div>
         <Tab.Group
