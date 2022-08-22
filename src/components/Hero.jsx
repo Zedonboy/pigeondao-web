@@ -31,7 +31,7 @@ export function Hero() {
        We are a Decentralized Autonomous Organization(DAO), A Guild of Elite Web3(algorand) developers. Like Assassin Creed
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get Started</Button>
+        <Button href="https://pigeon-app.vercel.app">Get Started</Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
