@@ -109,10 +109,9 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="https://pigeon-app.vercel.app" color="blue">
+            <Button href="https://github.com/Zedonboy/pigeon-app" color="blue">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
+                Github Page</span>
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
