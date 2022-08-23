@@ -109,7 +109,7 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="https://github.com/Zedonboy/pigeon-app" color="blue">
+            <Button href="https://github.com/Zedonboy/pigeondao-web" color="blue">
               <span>
                 Github Page</span>
             </Button>
