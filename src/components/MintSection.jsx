@@ -64,7 +64,7 @@ export default function MintSection() {
               <div className="relative">
                 <div className="sm:text-center">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                    Let's Get You Started.
+                    Let&apos;s Get You Started.
                   </h2>
                   <p className="mx-auto mt-6 max-w-2xl text-lg text-indigo-200">
                     Submit your Algorand Wallet Address.
